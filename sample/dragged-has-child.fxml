@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane fx:id="notifPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="204.0" prefWidth="484.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="78.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="At this time, our application only supports moving leaf nodes." wrappingWidth="326.72381591796875" />
+      <Button fx:id="okButton" layoutX="226.0" layoutY="102.0" mnemonicParsing="false" text="Ok" />
+   </children>
+</Pane>

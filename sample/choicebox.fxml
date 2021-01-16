@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="179.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Would you like to replace current node, add as a left child, or add as a right child?" textAlignment="CENTER" wrappingWidth="242.93670654296875" />
+      <Button fx:id="replace" layoutX="274.0" layoutY="76.0" mnemonicParsing="false" text="Replace"/>
+      <Button fx:id="makeLeft" layoutX="256.0" layoutY="116.0" mnemonicParsing="false" text="Make left child"/>
+      <Button fx:id="makeRight" layoutX="252.0" layoutY="158.0" mnemonicParsing="false" text="Make right child"/>
+   </children>
+</Pane>

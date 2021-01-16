@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="195.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="144.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Which node would you like to delete? (At this time, our app only supports the deletion of leaf nodes)" textAlignment="CENTER" wrappingWidth="312.5367431640625" />
+      <ComboBox fx:id="choices" layoutX="225.0" layoutY="87.0" prefWidth="150.0" />
+      <Button fx:id="delete" layoutX="274.0" layoutY="135.0" mnemonicParsing="false" text="Delete" />
+   </children>
+</Pane>
